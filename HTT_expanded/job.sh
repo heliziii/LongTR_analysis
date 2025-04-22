@@ -1,0 +1,12 @@
+/projects/ps-gymreklab/helia/HipSTR_LR/LongSTR/LongTR \
+	--bams m64012_191221_044659.ccsset.bc1018--bc1018_CIGAR.bam,m64012_191221_044659.ccsset.bc1017--bc1017_CIGAR.bam,m64012_191221_044659.ccsset.bc1016--bc1016_CIGAR.bam,m64012_191221_044659.ccsset.bc1015--bc1015_CIGAR.bam \
+	--fasta hs37d5.fa \
+	--min-sum-qual -1e18 \
+	--regions sample.bed \
+	--tr-vcf bc1018.vcf.gz \
+	--min-reads 3 --max-tr-len 1000 \
+	--bam-samps NA14044,NA20253,NA13509,NA13505 --bam-libs NA14044,NA20253,NA13509,NA13505 \
+	--skip-assembly \
+	--def-stutter-model \
+	--phased-bam \
+	--log log.txt
