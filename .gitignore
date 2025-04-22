@@ -1,1 +1,10 @@
 *.txt
+*.bam
+*.bam.bai
+*.fasta
+*.log
+*.csv
+*.bed
+*.pdf
+*.gz
+
